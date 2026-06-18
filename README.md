@@ -47,14 +47,16 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
 ### 📂 Featured Production Projects
 
 #### 🏥 [AI-Healthcare-System](https://github.com/pavanbadempet/AI-Healthcare-System)
-*Python, PySpark, Airflow, Delta Lake, XGBoost, FastAPI, Docker, Kubernetes*
-* Designed an end-to-end data and AI platform for **250k+ clinical records**, spanning Airflow orchestration, PySpark ingestion, partitioned Delta Lake storage, feature generation, model training, FastAPI serving, RBAC, audit logging, and observability.
-* Built five diagnostic-model workflows and a citation-grounded RAG layer with FHIR R4 interoperability, vector retrieval, access-controlled context assembly, and CI/CD; achieved **89% validation accuracy**.
+*Python, PySpark Streaming, Airflow, Delta Lake, FastAPI, Docker, Kubernetes, AWS*
+* Designed and built a scalable clinical data and MLOps platform processing **250k+ records**, utilizing **Apache Airflow** DAGs for orchestration and **PySpark Structured Streaming** to ingest live patient vitals into partitioned **Delta Lake** tables.
+* Implemented an automated cloud retraining loop using the **Kaggle API** and programmatically synchronized deep learning model artifacts with a private **Hugging Face Dataset** store, avoiding git binary commits.
+* Integrated a secure **FastAPI** gateway with a 7-layer compliance middleware stack (PII exception masking, JWT auth, RBAC), local vector retrieval (`turbovec` SIMD), and HL7 FHIR R4 data validation serializers.
 
 #### 🎬 [Movie-Recommendation-System](https://github.com/pavanbadempet/Movie-Recommendation-System)
-*Python, Airflow, SBERT, FAISS, FastAPI, Docker, GitHub Actions*
-* Designed a decoupled batch-to-serving architecture for **33k+ movies**, separating ingestion, transformation, embedding generation, FAISS indexing, artifact versioning, and FastAPI retrieval.
-* Automated dataset and model refreshes with Airflow and GitHub Actions, generated SBERT embeddings, versioned serving artifacts, and implemented in-memory index reloads without rebuilding the application.
+*Python, PySpark, Airflow, Delta Lake, Redis, ONNX Runtime, FAISS, FastAPI, Docker*
+* Engineered a production-ready causal recommendation platform (**APEX**) serving **33k+ movies**, building a **PySpark Medallion Delta Lake** ETL pipeline for offline candidate training data ingestion and feature curation.
+* Developed an asynchronous real-time streaming feedback loop using **Redis streams** and an `OnlineLearningCoordinator` to capture user clickstream rating events and refresh sequence history state under sub-10ms latency.
+* Implemented an adaptive serving layout supporting dynamic compute fallbacks: Tier 1 (NVIDIA GPU ensembling of SASRec/LightGCN/KAN models), Tier 2 (quantized ONNX CPU), and Tier 3 (SIMD vector indexing for low-memory runtimes).
 
 ---
 
