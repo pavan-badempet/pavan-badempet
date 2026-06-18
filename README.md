@@ -27,17 +27,17 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
   <tr>
     <td valign="top" width="50%">
       <h4><b>💻 Languages & Core</b></h4>
-      <code>Python</code> • <code>Scala</code> • <code>SQL (PostgreSQL, MySQL, SQLite)</code> • <code>TypeScript</code> • <code>Go</code> • <code>Bash</code>
+      <code>Python</code> • <code>Scala</code> • <code>SQL (PostgreSQL, MySQL, SQLite)</code> • <code>Java</code> • <code>TypeScript</code> • <code>Go</code> • <code>Bash</code>
       <br><br>
       <h4><b>📊 Big Data & Orchestration</b></h4>
-      <code>Apache Spark</code> • <code>PySpark Streaming</code> • <code>Delta Lake</code> • <code>Apache Airflow</code> • <code>Apache Hadoop</code> • <code>Databricks</code> • <code>Data Quality (Great Expectations)</code>
+      <code>Apache Spark</code> • <code>PySpark Streaming</code> • <code>Delta Lake</code> • <code>Apache Iceberg</code> • <code>Dremio</code> • <code>Snowflake</code> • <code>Apache Airflow</code> • <code>Databricks</code> • <code>Apache Hadoop</code> • <code>Data Quality (Great Expectations)</code>
     </td>
     <td valign="top" width="50%">
       <h4><b>🤖 Machine Learning & MLOps</b></h4>
       <code>Scikit-learn</code> • <code>PyTorch</code> • <code>TensorFlow</code> • <code>TabPFN</code> • <code>Kaggle API</code> • <code>Hugging Face Hub</code> • <code>Conformal Prediction</code>
       <br><br>
       <h4><b>☁️ Cloud, Databases & DevOps</b></h4>
-      <code>AWS (EMR, S3, EC2, RDS, IAM)</code> • <code>Docker</code> • <code>Kubernetes</code> • <code>GitHub Actions CI/CD</code> • <code>Pinecone / SimpleVectorStore</code> • <code>Allembic / migrations</code>
+      <code>AWS (EMR, S3, EC2, RDS, IAM)</code> • <code>Docker</code> • <code>Kubernetes</code> • <code>MinIO / HDFS</code> • <code>AutoSys</code> • <code>GitHub Actions CI/CD</code> • <code>Pinecone / SimpleVectorStore</code> • <code>Allembic / migrations</code>
     </td>
   </tr>
 </table>
