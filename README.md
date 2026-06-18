@@ -1,10 +1,21 @@
-# 👋 Hi, I'm Pavan Badempet
+<div itemscope itemtype="https://schema.org/Person">
+
+# 👋 Hi, I'm <span itemprop="name">Pavan Badempet</span>
 
 ![Pavan Badempet Profile Banner](profile_banner.png)
 
-## 🌌 Data & MLOps Platform Engineer | Big Data Architect
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=pavanbadempet&label=Profile+Views&color=007ec6&style=flat-square" alt="Pavan Badempet Profile Views" />
+</p>
 
-I am a **Data Engineer and MLOps Platform Specialist** focused on building high-throughput, low-latency data platforms, distributed ETL pipelines, and scalable machine learning infrastructure. My expertise lies in designing robust lakehouse architectures (Delta Lake, Lakefs), orchestrating complex workflows (Apache Airflow), and engineering production-grade ML pipelines.
+## 🌌 <span itemprop="jobTitle">Data & MLOps Platform Engineer</span> | Big Data Architect
+
+<meta itemprop="url" content="https://pavanbadempet.github.io" />
+<meta itemprop="knowsAbout" content="Data Engineering, Big Data, MLOps, Apache Spark, PySpark, Delta Lake, Apache Airflow, Python, Scala, AWS, Kubernetes, PyTorch, Conformal Prediction, FT-Transformers, Lakehouse Architecture" />
+<link itemprop="sameAs" href="https://www.linkedin.com/in/pavanbadempet/" />
+<link itemprop="sameAs" href="https://stackoverflow.com/users/6325621/pavan-badempet" />
+
+I am a **Data Engineer and MLOps Platform Specialist** focused on building high-throughput, distributed data platforms, scalable ETL pipelines, and machine learning infrastructure. My expertise lies in designing robust lakehouse architectures (Delta Lake, Lakefs), orchestrating complex workflows (Apache Airflow), and engineering production-grade ML pipelines.
 
 Experienced in implementing healthcare interoperability gates (ABDM compliance), real-time vital signal streaming analytics, and deep learning clinical ensembles (FT-Transformers, Bi-LSTM temporal models) with automated cloud retraining triggers.
 
@@ -75,11 +86,22 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
 
 ### 🌐 Connect & Collaborate
 
-* 💼 **LinkedIn:** [Pavan Badempet](https://www.linkedin.com/in/pavanbadempet/)
-* ✍️ **Blog & Portfolio:** [pavanbadempet.github.io](https://pavanbadempet.github.io)
-* 💬 **Stack Overflow:** [Pavan Badempet Profile](https://stackoverflow.com/users/6325621/pavan-badempet)
-* 📮 **Get in Touch:** Shoot me an email or open an issue on any of my repositories!
+* 💼 **LinkedIn:** Connect with [Pavan Badempet on LinkedIn](https://www.linkedin.com/in/pavanbadempet/) to discuss data engineering opportunities.
+* ✍️ **Blog & Portfolio:** Visit [Pavan's Data Engineering Portfolio and Blog](https://pavanbadempet.github.io) for system architecture guides and big data tutorials.
+* 💬 **Stack Overflow:** View the [Pavan Badempet Stack Overflow Profile](https://stackoverflow.com/users/6325621/pavan-badempet) to see community Q&A contributions.
+* 📮 **Get in Touch:** Shoot me an email or open an issue on any of my active repositories!
 
-<!-- Hidden SEO Keywords to optimize crawler indexing:
-Data Engineer, MLOps, Big Data Architect, PySpark Specialist, Apache Spark Developer, Delta Lake Lakehouse, Apache Airflow pipelines, ETL developer, PyTorch Deep Learning Tabular data, Hugging Face Hub integration, Python Scala AWS engineer, Ayushman Bharat Digital Mission software engineer, FAANG grade data engineer portfolio, Pavan Badempet Github.
--->
+---
+
+<details>
+  <summary>🔍 Career Keywords & Technical Index (SEO)</summary>
+  <p>
+    This profile indexes major industry domains and systems:
+    <strong>Core Specializations:</strong> Data Platform Architect, Big Data Engineer Portfolio, MLOps Pipelines, Python and Scala Developer, AWS Solutions, Lakehouse Architect.
+    <strong>Distributed Platforms:</strong> Apache Spark, PySpark Streaming, Delta Lake, Apache Airflow, Databricks, Data Lakehouses, PySpark ETL.
+    <strong>AI Infrastructure & Inference:</strong> FT-Transformer models, TabPFN models, PyTorch Tabular MLP ensembles, conformal prediction bounds, Hugging Face Hub, Kaggle API integration.
+    <strong>Compliance & Health Informatics:</strong> Ayushman Bharat Digital Mission (ABDM) gateways, FHIR standards, vital signals streaming.
+  </p>
+</details>
+
+</div>
