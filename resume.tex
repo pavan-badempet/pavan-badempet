@@ -132,9 +132,9 @@ Data Engineer with 2.5+ years of experience designing, building, and optimizing 
     $|$ \emph{Python, PySpark Streaming, Airflow, Delta Lake, FastAPI, Docker, Kubernetes, AWS}
   }
   \resumeItemListStart
-    \resumeItem{Designed and built a scalable clinical data and MLOps platform processing \textbf{250k+ records}, utilizing \textbf{Apache Airflow} DAGs for orchestration and \textbf{PySpark Structured Streaming} to ingest live patient vitals into partitioned \textbf{Delta Lake} tables.}
-    \resumeItem{Implemented an automated cloud retraining loop using the \textbf{Kaggle API} and programmatically synchronized deep learning model artifacts with a private \textbf{Hugging Face Dataset} store, avoiding git binary commits.}
-    \resumeItem{Integrated a secure \textbf{FastAPI} gateway with a 7-layer compliance middleware stack (PII exception masking, JWT auth, RBAC), local vector retrieval (`turbovec` SIMD), and HL7 FHIR R4 data validation serializers.}
+    \resumeItem{Built an end-to-end data platform for \textbf{250k+ clinical records} using \textbf{Apache Airflow} and \textbf{PySpark} pipelines, staging data in partitioned \textbf{Delta Lake} tables.}
+    \resumeItem{Implemented automated cloud retraining triggers via \textbf{Kaggle API} and model weight synchronization with a private \textbf{Hugging Face} dataset hub.}
+    \resumeItem{Developed a \textbf{FastAPI} service with a local vector retrieval index (`turbovec` SIMD), JWT auth, and FHIR R4 clinical compliance serializers.}
   \resumeItemListEnd
 
   \resumeProjectHeading{
@@ -142,9 +142,9 @@ Data Engineer with 2.5+ years of experience designing, building, and optimizing 
     $|$ \emph{Python, PySpark, Airflow, Delta Lake, Redis, ONNX Runtime, FAISS, FastAPI, Docker}
   }
   \resumeItemListStart
-    \resumeItem{Engineered a production-ready causal recommendation platform (**APEX**) serving \textbf{33k+ movies}, building a \textbf{PySpark Medallion Delta Lake} ETL pipeline for offline candidate training data ingestion and feature curation.}
-    \resumeItem{Developed an asynchronous real-time streaming feedback loop using \textbf{Redis streams} and an `OnlineLearningCoordinator` to capture user clickstream rating events and refresh sequence history state under sub-10ms latency.}
-    \resumeItem{Implemented an adaptive serving layout supporting dynamic compute fallbacks: Tier 1 (NVIDIA GPU ensembling of SASRec/LightGCN/KAN models), Tier 2 (quantized ONNX CPU), and Tier 3 (SIMD vector indexing for low-memory runtimes).}
+    \resumeItem{Engineered a causal movie recommendation engine using \textbf{PySpark} Medallion pipelines for ETL and feature store curation.}
+    \resumeItem{Developed a real-time clickstream feedback loop using \textbf{Redis streams} to update user sequential states asynchronously (sub-10ms latency).}
+    \resumeItem{Implemented an adaptive serving API with hardware-aware fallbacks (NVIDIA GPU ensembling, quantized ONNX CPU, and SIMD vector index search).}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
