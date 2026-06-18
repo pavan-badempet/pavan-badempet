@@ -47,7 +47,7 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
 * Implemented Collaborative Filtering, Matrix Factorization, and Deep Learning recommendation frameworks.
 * Structured data ingestion pipelines to process millions of rating events.
 
-#### 📱 [Universe-Dex](https://github.com/pavanbadempet/Universe-Dex)
+#### 📱 Universe-Dex (Private Archive)
 *Interactive index registry and dashboard manager.*
 * Designed a responsive Single Page Application (SPA) using React, Vite, TypeScript, and TailwindCSS.
 * Integrated robust state management and mock data engineering backends.
@@ -67,7 +67,7 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
 
 <p align="left">
   <a href="https://github.com/pavanbadempet">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=pavanbadempet&theme=tokyonight" alt="Pavan's Contribution Streak" />
+    <img src="https://streak-stats.demolab.com/?user=pavanbadempet&theme=tokyonight" alt="Pavan's Contribution Streak" />
   </a>
 </p>
 
