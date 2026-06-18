@@ -47,21 +47,14 @@ Experienced in implementing healthcare interoperability gates (ABDM compliance),
 ### 📂 Featured Production Projects
 
 #### 🏥 [AI-Healthcare-System](https://github.com/pavanbadempet/AI-Healthcare-System)
-*Production-ready enterprise clinical decision support and health-informatics platform.*
-* **SOTA Ensemble Modeling**: Built a 6-model voting ensemble utilizing XGBoost, LightGBM, CatBoost, RandomForest, and custom PyTorch `FT-Transformer` classifiers.
-* **Temporal Attention**: Implemented sequence-based `ClinicalTemporalLSTM` models to predict risk trajectories over longitudinal patient visit history.
-* **Automated MLOps**: Architected serverless cloud retraining loops using Kaggle API and private Hugging Face Dataset model storage, removing large model files from git history.
-* **Interoperability**: Designed Ayushman Bharat Digital Mission (ABDM) sandbox gateways and FHIR compliance validation gates.
+*Python, PySpark, Airflow, Delta Lake, XGBoost, FastAPI, Docker, Kubernetes*
+* Designed an end-to-end data and AI platform for **250k+ clinical records**, spanning Airflow orchestration, PySpark ingestion, partitioned Delta Lake storage, feature generation, model training, FastAPI serving, RBAC, audit logging, and observability.
+* Built five diagnostic-model workflows and a citation-grounded RAG layer with FHIR R4 interoperability, vector retrieval, access-controlled context assembly, and CI/CD; achieved **89% validation accuracy**.
 
 #### 🎬 [Movie-Recommendation-System](https://github.com/pavanbadempet/Movie-Recommendation-System)
-*Scalable recommender engine utilizing distributed data pipelines.*
-* Implemented Collaborative Filtering, Matrix Factorization, and Deep Learning recommendation frameworks.
-* Structured data ingestion pipelines to process millions of rating events.
-
-#### 📱 Universe-Dex (Private Archive)
-*Interactive index registry and dashboard manager.*
-* Designed a responsive Single Page Application (SPA) using React, Vite, TypeScript, and TailwindCSS.
-* Integrated robust state management and mock data engineering backends.
+*Python, Airflow, SBERT, FAISS, FastAPI, Docker, GitHub Actions*
+* Designed a decoupled batch-to-serving architecture for **33k+ movies**, separating ingestion, transformation, embedding generation, FAISS indexing, artifact versioning, and FastAPI retrieval.
+* Automated dataset and model refreshes with Airflow and GitHub Actions, generated SBERT embeddings, versioned serving artifacts, and implemented in-memory index reloads without rebuilding the application.
 
 ---
 
